@@ -1,0 +1,144 @@
+{
+  "activeLayerID": "52555354-4F53-484F-5000-000000000009",
+  "colorSpace": "sRGB",
+  "documentID": "52555354-4F53-484F-5000-000000000000",
+  "format": "com.compositor.project",
+  "height": 96,
+  "layers": [
+    {
+      "blendMode": "Normal",
+      "id": "52555354-4F53-484F-5000-000000000001",
+      "imageFile": "52555354-4F53-484F-5000-000000000001.png",
+      "isGroup": false,
+      "isVisible": true,
+      "name": "Calque 1",
+      "opacity": 1.0,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "sampling": "High quality",
+        "size": [
+          96.0,
+          96.0
+        ]
+      }
+    },
+    {
+      "adjustment": {
+        "colorize": false,
+        "curves": {
+          "channel": "RGB",
+          "channels": [
+            [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 255.0,
+                "y": 255.0
+              }
+            ],
+            [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 255.0,
+                "y": 255.0
+              }
+            ],
+            [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 255.0,
+                "y": 255.0
+              }
+            ],
+            [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 255.0,
+                "y": 255.0
+              }
+            ]
+          ]
+        },
+        "hue": 0.0,
+        "kind": "Motion Blur",
+        "levels": {
+          "channel": "RGB",
+          "ranges": [
+            {
+              "black": 0.0,
+              "gamma": 1.0,
+              "outputBlack": 0.0,
+              "outputWhite": 255.0,
+              "white": 255.0
+            },
+            {
+              "black": 0.0,
+              "gamma": 1.0,
+              "outputBlack": 0.0,
+              "outputWhite": 255.0,
+              "white": 255.0
+            },
+            {
+              "black": 0.0,
+              "gamma": 1.0,
+              "outputBlack": 0.0,
+              "outputWhite": 255.0,
+              "white": 255.0
+            },
+            {
+              "black": 0.0,
+              "gamma": 1.0,
+              "outputBlack": 0.0,
+              "outputWhite": 255.0,
+              "white": 255.0
+            }
+          ]
+        },
+        "lightness": 0.0,
+        "motionAngle": 0.0,
+        "motionDistance": 60.0,
+        "saturation": 0.0
+      },
+      "blendMode": "Normal",
+      "id": "52555354-4F53-484F-5000-000000000009",
+      "isGroup": false,
+      "isVisible": true,
+      "name": "Flou",
+      "opacity": 1.0,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "sampling": "High quality",
+        "size": [
+          96.0,
+          96.0
+        ]
+      }
+    }
+  ],
+  "resolution": 72.0,
+  "version": 11,
+  "width": 96
+}
