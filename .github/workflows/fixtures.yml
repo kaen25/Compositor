@@ -1,0 +1,50 @@
+name: Fixtures
+
+# Rustoshop: Compositor opens and exports the projects in fixtures/; the PNGs (and any refusal) come back as an artifact.
+on:
+  push:
+    branches: [fixtures]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: macos-26
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Select Xcode 26.6
+        run: sudo xcode-select -s /Applications/Xcode_26.6.app
+
+      - name: Resolve Swift packages
+        run: >
+          xcodebuild -resolvePackageDependencies
+          -project Compositor.xcodeproj
+          -scheme Compositor
+          -onlyUsePackageVersionsFromResolvedFile
+
+      # Unsigned: no entitlements, so no sandbox, and the test reads the checkout directly.
+      - name: Export fixtures
+        run: >
+          xcodebuild test
+          -project Compositor.xcodeproj
+          -scheme Compositor
+          -destination 'platform=macOS,arch=arm64'
+          -configuration Debug
+          -derivedDataPath DerivedData
+          CODE_SIGNING_ALLOWED=NO ENABLE_DEBUG_DYLIB=NO
+          -parallel-testing-enabled NO
+          -only-testing:CompositorTests/FixtureExportTests
+
+      - name: Upload exports
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: fixtures
+          path: fixtures-out
+          if-no-files-found: error
+          retention-days: 7
