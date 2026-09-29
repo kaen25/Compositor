@@ -1,0 +1,176 @@
+{
+  "activeLayerID": "52555354-4F53-484F-5000-000000000003",
+  "colorSpace": "sRGB",
+  "documentID": "52555354-4F53-484F-5000-000000000000",
+  "format": "com.compositor.project",
+  "height": 96,
+  "layers": [
+    {
+      "blendMode": "Normal",
+      "id": "52555354-4F53-484F-5000-000000000001",
+      "imageFile": "52555354-4F53-484F-5000-000000000001.png",
+      "isGroup": false,
+      "isVisible": true,
+      "name": "Calque 1",
+      "opacity": 1.0,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "sampling": "High quality",
+        "size": [
+          96.0,
+          96.0
+        ]
+      }
+    },
+    {
+      "blendMode": "Normal",
+      "id": "52555354-4F53-484F-5000-000000000002",
+      "imageFile": "52555354-4F53-484F-5000-000000000002.png",
+      "isGroup": false,
+      "isVisible": true,
+      "name": "Calque 2",
+      "opacity": 1.0,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "sampling": "High quality",
+        "size": [
+          96.0,
+          96.0
+        ]
+      }
+    },
+    {
+      "adjustment": {
+        "blackWhiteSettings": {
+          "blues": 20.0,
+          "cyans": 60.0,
+          "greens": 40.0,
+          "magentas": 80.0,
+          "reds": 40.0,
+          "tint": true,
+          "tintHue": 35.0,
+          "tintSaturation": 25.0,
+          "yellows": 60.0
+        },
+        "colorize": false,
+        "curves": {
+          "channel": "RGB",
+          "channels": [
+            [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 255.0,
+                "y": 255.0
+              }
+            ],
+            [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 255.0,
+                "y": 255.0
+              }
+            ],
+            [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 255.0,
+                "y": 255.0
+              }
+            ],
+            [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 255.0,
+                "y": 255.0
+              }
+            ]
+          ]
+        },
+        "hue": 0.0,
+        "kind": "Black & White",
+        "levels": {
+          "channel": "RGB",
+          "ranges": [
+            {
+              "black": 0.0,
+              "gamma": 1.0,
+              "outputBlack": 0.0,
+              "outputWhite": 255.0,
+              "white": 255.0
+            },
+            {
+              "black": 0.0,
+              "gamma": 1.0,
+              "outputBlack": 0.0,
+              "outputWhite": 255.0,
+              "white": 255.0
+            },
+            {
+              "black": 0.0,
+              "gamma": 1.0,
+              "outputBlack": 0.0,
+              "outputWhite": 255.0,
+              "white": 255.0
+            },
+            {
+              "black": 0.0,
+              "gamma": 1.0,
+              "outputBlack": 0.0,
+              "outputWhite": 255.0,
+              "white": 255.0
+            }
+          ]
+        },
+        "lightness": 0.0,
+        "saturation": 0.0
+      },
+      "blendMode": "Normal",
+      "id": "52555354-4F53-484F-5000-000000000003",
+      "isGroup": false,
+      "isVisible": true,
+      "name": "Ajustement",
+      "opacity": 1.0,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "sampling": "High quality",
+        "size": [
+          96.0,
+          96.0
+        ]
+      }
+    }
+  ],
+  "resolution": 72.0,
+  "version": 11,
+  "width": 96
+}

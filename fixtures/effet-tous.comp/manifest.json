@@ -1,0 +1,106 @@
+{
+  "activeLayerID": "52555354-4F53-484F-5000-000000000002",
+  "colorSpace": "sRGB",
+  "documentID": "52555354-4F53-484F-5000-000000000000",
+  "format": "com.compositor.project",
+  "height": 96,
+  "layers": [
+    {
+      "blendMode": "Normal",
+      "id": "52555354-4F53-484F-5000-000000000001",
+      "imageFile": "52555354-4F53-484F-5000-000000000001.png",
+      "isGroup": false,
+      "isVisible": true,
+      "name": "Calque 1",
+      "opacity": 1.0,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "sampling": "High quality",
+        "size": [
+          96.0,
+          96.0
+        ]
+      }
+    },
+    {
+      "blendMode": "Normal",
+      "effects": {
+        "colorOverlay": {
+          "blue": 0.5,
+          "green": 0.9,
+          "opacity": 0.3,
+          "red": 0.2
+        },
+        "innerGlow": {
+          "blue": 0.6,
+          "green": 1.0,
+          "opacity": 0.8,
+          "red": 0.3,
+          "size": 5.0
+        },
+        "innerShadow": {
+          "angle": -45.0,
+          "blue": 0.0,
+          "blur": 5.0,
+          "distance": 6.0,
+          "green": 0.0,
+          "opacity": 0.7,
+          "red": 0.0
+        },
+        "outerGlow": {
+          "blue": 0.6,
+          "green": 1.0,
+          "opacity": 0.8,
+          "red": 1.0,
+          "size": 8.0
+        },
+        "shadow": {
+          "angle": 120.0,
+          "blue": 0.0,
+          "blur": 5.0,
+          "distance": 6.0,
+          "green": 0.0,
+          "opacity": 0.7,
+          "red": 0.0
+        },
+        "stroke": {
+          "blue": 0.1,
+          "green": 0.8,
+          "inside": false,
+          "opacity": 0.9,
+          "red": 1.0,
+          "size": 4.0
+        }
+      },
+      "id": "52555354-4F53-484F-5000-000000000002",
+      "imageFile": "52555354-4F53-484F-5000-000000000002.png",
+      "isGroup": false,
+      "isVisible": true,
+      "name": "Calque 2",
+      "opacity": 1.0,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          18.0,
+          18.0
+        ],
+        "rotation": 0.0,
+        "sampling": "High quality",
+        "size": [
+          60.0,
+          60.0
+        ]
+      }
+    }
+  ],
+  "resolution": 72.0,
+  "version": 11,
+  "width": 96
+}

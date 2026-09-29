@@ -1,0 +1,127 @@
+{
+  "activeLayerID": "52555354-4F53-484F-5000-000000000004",
+  "colorSpace": "sRGB",
+  "documentID": "52555354-4F53-484F-5000-000000000000",
+  "format": "com.compositor.project",
+  "height": 96,
+  "layers": [
+    {
+      "blendMode": "Normal",
+      "id": "52555354-4F53-484F-5000-000000000001",
+      "imageFile": "52555354-4F53-484F-5000-000000000001.png",
+      "isGroup": false,
+      "isVisible": true,
+      "name": "Calque 1",
+      "opacity": 1.0,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "sampling": "High quality",
+        "size": [
+          96.0,
+          96.0
+        ]
+      }
+    },
+    {
+      "blendMode": "Normal",
+      "id": "52555354-4F53-484F-5000-000000000002",
+      "imageFile": "52555354-4F53-484F-5000-000000000002.png",
+      "isGroup": false,
+      "isVisible": true,
+      "maskEnabled": true,
+      "maskFile": "52555354-4F53-484F-5000-000000000002.mask.png",
+      "maskLinked": true,
+      "name": "Calque 2",
+      "opacity": 1.0,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          4.0,
+          4.0
+        ],
+        "rotation": 0.0,
+        "sampling": "High quality",
+        "size": [
+          60.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "blendMode": "Normal",
+      "id": "52555354-4F53-484F-5000-000000000003",
+      "imageFile": "52555354-4F53-484F-5000-000000000003.png",
+      "isGroup": false,
+      "isVisible": true,
+      "maskEnabled": false,
+      "maskFile": "52555354-4F53-484F-5000-000000000003.mask.png",
+      "maskLinked": true,
+      "name": "Calque 3",
+      "opacity": 1.0,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          60.0,
+          8.0
+        ],
+        "rotation": 0.0,
+        "sampling": "High quality",
+        "size": [
+          30.0,
+          30.0
+        ]
+      }
+    },
+    {
+      "blendMode": "Normal",
+      "id": "52555354-4F53-484F-5000-000000000004",
+      "imageFile": "52555354-4F53-484F-5000-000000000004.png",
+      "isGroup": false,
+      "isVisible": true,
+      "maskEnabled": true,
+      "maskFile": "52555354-4F53-484F-5000-000000000004.mask.png",
+      "maskLinked": false,
+      "maskPlacement": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          30.0,
+          45.0
+        ],
+        "rotation": 0.0,
+        "sampling": "High quality",
+        "size": [
+          60.0,
+          45.0
+        ]
+      },
+      "name": "Calque 4",
+      "opacity": 1.0,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          40.0,
+          50.0
+        ],
+        "rotation": 20.0,
+        "sampling": "High quality",
+        "size": [
+          50.0,
+          40.0
+        ]
+      }
+    }
+  ],
+  "resolution": 72.0,
+  "version": 11,
+  "width": 96
+}

@@ -1,0 +1,229 @@
+{
+  "activeLayerID": "52555354-4F53-484F-5000-000000000003",
+  "colorSpace": "sRGB",
+  "documentID": "52555354-4F53-484F-5000-000000000000",
+  "format": "com.compositor.project",
+  "height": 96,
+  "layers": [
+    {
+      "blendMode": "Normal",
+      "id": "52555354-4F53-484F-5000-000000000001",
+      "imageFile": "52555354-4F53-484F-5000-000000000001.png",
+      "isGroup": false,
+      "isVisible": true,
+      "name": "Calque 1",
+      "opacity": 1.0,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "sampling": "High quality",
+        "size": [
+          96.0,
+          96.0
+        ]
+      }
+    },
+    {
+      "blendMode": "Normal",
+      "id": "52555354-4F53-484F-5000-000000000002",
+      "imageFile": "52555354-4F53-484F-5000-000000000002.png",
+      "isGroup": false,
+      "isVisible": true,
+      "name": "Calque 2",
+      "opacity": 1.0,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "sampling": "High quality",
+        "size": [
+          96.0,
+          96.0
+        ]
+      }
+    },
+    {
+      "adjustment": {
+        "colorize": false,
+        "curves": {
+          "channel": "RGB",
+          "channels": [
+            [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 255.0,
+                "y": 255.0
+              }
+            ],
+            [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 255.0,
+                "y": 255.0
+              }
+            ],
+            [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 255.0,
+                "y": 255.0
+              }
+            ],
+            [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 255.0,
+                "y": 255.0
+              }
+            ]
+          ]
+        },
+        "hsvSettings": {
+          "adjustments": [
+            "Master",
+            {
+              "hue": 200.0,
+              "lightness": 5.0,
+              "saturation": 50.0
+            }
+          ],
+          "bands": [
+            "Master",
+            {
+              "falloffEnd": 360.0,
+              "falloffStart": 0.0,
+              "rangeEnd": 360.0,
+              "rangeStart": 0.0
+            },
+            "Reds",
+            {
+              "falloffEnd": 45.0,
+              "falloffStart": 315.0,
+              "rangeEnd": 15.0,
+              "rangeStart": 345.0
+            },
+            "Yellows",
+            {
+              "falloffEnd": 105.0,
+              "falloffStart": 15.0,
+              "rangeEnd": 75.0,
+              "rangeStart": 45.0
+            },
+            "Greens",
+            {
+              "falloffEnd": 165.0,
+              "falloffStart": 75.0,
+              "rangeEnd": 135.0,
+              "rangeStart": 105.0
+            },
+            "Cyans",
+            {
+              "falloffEnd": 225.0,
+              "falloffStart": 135.0,
+              "rangeEnd": 195.0,
+              "rangeStart": 165.0
+            },
+            "Blues",
+            {
+              "falloffEnd": 285.0,
+              "falloffStart": 195.0,
+              "rangeEnd": 255.0,
+              "rangeStart": 225.0
+            },
+            "Magentas",
+            {
+              "falloffEnd": 345.0,
+              "falloffStart": 255.0,
+              "rangeEnd": 315.0,
+              "rangeStart": 285.0
+            }
+          ],
+          "colorize": true,
+          "invertRange": false,
+          "range": "Master"
+        },
+        "hue": 0.0,
+        "kind": "Hue/Saturation",
+        "levels": {
+          "channel": "RGB",
+          "ranges": [
+            {
+              "black": 0.0,
+              "gamma": 1.0,
+              "outputBlack": 0.0,
+              "outputWhite": 255.0,
+              "white": 255.0
+            },
+            {
+              "black": 0.0,
+              "gamma": 1.0,
+              "outputBlack": 0.0,
+              "outputWhite": 255.0,
+              "white": 255.0
+            },
+            {
+              "black": 0.0,
+              "gamma": 1.0,
+              "outputBlack": 0.0,
+              "outputWhite": 255.0,
+              "white": 255.0
+            },
+            {
+              "black": 0.0,
+              "gamma": 1.0,
+              "outputBlack": 0.0,
+              "outputWhite": 255.0,
+              "white": 255.0
+            }
+          ]
+        },
+        "lightness": 0.0,
+        "saturation": 0.0
+      },
+      "blendMode": "Normal",
+      "id": "52555354-4F53-484F-5000-000000000003",
+      "isGroup": false,
+      "isVisible": true,
+      "name": "Ajustement",
+      "opacity": 1.0,
+      "transform": {
+        "flipX": false,
+        "flipY": false,
+        "origin": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "sampling": "High quality",
+        "size": [
+          96.0,
+          96.0
+        ]
+      }
+    }
+  ],
+  "resolution": 72.0,
+  "version": 11,
+  "width": 96
+}
